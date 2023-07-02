@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-image: url("Ball.jpg");
+    object-fit: fill;
+    font-family: 'Graduate', cursive;
+    color: white
+}
+
+h3, h4 {
+    font-size: 70px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 500px
+    max-height: 900px;
+}
+
+h4 {
+    width: 155px;
+    height: 120px;
+    margin-top: 125px;
+    margin: auto;
+    border-radius: 5px;
+    background-image: #080001;
+}
+
+#home-score,
+#guest-score
+ {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+}
+
+#new-game-btn {
+    color: white;
+    background: grey;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10%; 
+}
+
+.home-button, 
+.guest-button {
+    color: #9AABD8;
+    font-size: 40px;
+}
+
+#
