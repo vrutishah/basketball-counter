@@ -46,7 +46,9 @@ let homeWinEl = document.getElementById("winner-home")
 let guestWinEl = document.getElementById("winner-guest")
 
 function newGame() {
+    homeScore = 0
     homeScoreEl.textContent = 0 
+    guestScore = 0
     guestScoreEl.textContent = 0
     
 }
